@@ -1,0 +1,29 @@
+td {
+    height: 15px;
+    width: 15px;
+    border: solid 1px black;
+}
+
+.wall {
+    background-color: black;
+}
+
+.floor {
+    background-color: white;
+}
+
+.human {
+    background-color: rgb(0, 119, 255);
+}
+
+.window {
+    background-color: gray;
+}
+
+.zombie {
+    background-color: red;
+}
+
+.infected {
+    background-color: yellow;
+}

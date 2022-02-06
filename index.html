@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>¡Ataque Zombie en AtomicLabs!</title>
+</head>
+
+<body onload="setBoard()">
+    <table>
+        <tr id="row0"></tr>
+        <tr id="row1"></tr>
+        <tr id="row2"></tr>
+        <tr id="row3"></tr>
+        <tr id="row4"></tr>
+        <tr id="row5"></tr>
+        <tr id="row6"></tr>
+        <tr id="row7"></tr>
+        <tr id="row8"></tr>
+        <tr id="row9"></tr>
+        <tr id="row10"></tr>
+        <tr id="row11"></tr>
+        <tr id="row12"></tr>
+        <tr id="row13"></tr>
+        <tr id="row14"></tr>
+        <tr id="row15"></tr>
+        <tr id="row16"></tr>
+        <tr id="row17"></tr>
+        <tr id="row18"></tr>
+        <tr id="row19"></tr>
+    </table>
+
+    <button onclick="iterate()" id="btnIterate">Iterar</button>
+
+    <h5 id="txtIterations">Núm. de iteración: 0</h5>
+    <h5 id="txtNumZombies">Núm. de zombies: 2</h5>
+    <h5 id="txtHumansLeft">Núm. de humanos en la oficina: 20</h5>
+    <h5 id="txtSavedHumans">Núm. de humanos salvados: 0</h5>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./index.js"></script>
+    <script src="./classes/human.js"></script>
+    <script src="./classes/zombie.js"></script>
+</body>
+
+</html>
